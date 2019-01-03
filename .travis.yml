@@ -56,6 +56,9 @@ before_script:
 
 # Build your code e.g., by calling make
 script:
+  - ls
+  - cd ..
+  - ls
   - bash ./cmake/travis/build.sh
   # - make -j`nproc`
 # Equivalent to make -j`nproc`
